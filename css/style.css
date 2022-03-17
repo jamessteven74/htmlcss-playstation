@@ -6,10 +6,133 @@
     padding: 0;
 }
 
+body{
+    color: white;
+    text-transform: uppercase;
+}
+
 /* #endregion-commonrule */
 
 /* #region-utilities */
 
+:root{
+--color_header: #000000;
+--color_footer: #00439C;
+--color_small_line: #0072CE;
+--color_playnow: #161C3B;
+--color_new_releases: #1F1F1F;
+--btn_secondary_color: #2D64E6;
+--color_play_plus: #BEBCBB;
+--btn_primary: #CD3D0F;
+
+}
 
 /* #endregion-utilities */
 
+
+/* #region-header */
+header{
+    background-color: black;
+    height: 30px;
+}
+/* #endregion-header */
+
+/* #region-nav */
+nav{
+    background-color: aqua;
+    height: 70px;
+}
+/* #endregion-nav */
+
+/* #region-main */
+main{
+    background-color: #43aa8b;
+    height: 600px
+}
+
+/* #endregion-main */
+
+
+/* #region-section-1-cards */
+
+.cards{
+    background-color: #f72585;
+    height: 300px;
+}
+
+/* #endregion-section1-cards */
+
+/* #region-section-2-console */
+.console{
+    background-color: #48cae4;
+    height: 500px ;
+}
+
+/* #endregion-section2-console */
+
+/* #region-section-3-items */
+
+.items{
+    background-color: #0077b6;
+    height: 270px;
+}
+
+/* #endregion-section-3-items */
+
+/* #region-section-4-hero-banner */
+
+.hero{
+    background-color: #ffd60a;
+    height: 550px;
+}
+
+/* #endregion-section-4-hero-banner */
+
+/* #region-section-5-new-releases */
+.new{
+    background-color: #1F1F1F;
+    height: 550px;
+}
+/* #endregion-section-5-new-releases */
+
+/* #region-section-6-explorer */
+.explorer{
+    background-color: #f20089;
+    height: 550px;
+}
+/* #endregion-section-6-explorer */
+
+/* #region-section-7-playplus */
+.playplus{
+    background-color: grey;
+    height: 350px;
+}
+/* #endregion-section-7-playplus */
+
+/* #region-section-8-playstore */
+.playstore{
+    background-color: #b5179e;
+    height: 500px;
+}
+/* #endregion-section-8-playstore */
+
+/* #region-section-9-playnow */
+.playnow{
+    background-color: aqua;
+    height: 400px;
+}
+/* #endregion-section-9-playnow */
+
+/* #region-section-10-social */
+.social{
+    background-color: rgb(230, 158, 66);
+    height: 350px;
+}
+/* #endregion-section-10-social */
+
+/* #region-footer */
+footer{
+    background-color: #06125a;
+    height: 500px;
+}
+/* #endregion-footer */
