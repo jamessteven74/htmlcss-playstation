@@ -7,10 +7,11 @@
 }
 
 body{
-    color: white;
+   
     text-transform: uppercase;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
+    
 
 /* #endregion-commonrule */
 
@@ -28,13 +29,26 @@ body{
 
 }
 
+.align_center{
+    text-align: center;
+}
+
 /* #endregion-utilities */
 
+.d-flex{
+    display: flex;
+}
 
 /* #region-header */
 header{
     background-color: black;
     height: 30px;
+    color: white;
+}
+
+.topnav{
+    flex-direction: row-reverse;
+    padding: 5px 15px;
 }
 /* #endregion-header */
 
@@ -58,7 +72,7 @@ main{
 
 .cards{
     background-color: #f72585;
-    height: 300px;
+    height: 500px;
 }
 
 /* #endregion-section1-cards */
@@ -91,6 +105,7 @@ main{
 
 /* #region-section-5-new-releases */
 .new{
+    color: white;
     background-color: #1F1F1F;
     height: 550px;
 }
