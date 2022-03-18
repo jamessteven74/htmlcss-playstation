@@ -33,11 +33,11 @@ body{
     text-align: center;
 }
 
-/* #endregion-utilities */
-
 .d-flex{
     display: flex;
 }
+/* #endregion-utilities */
+
 
 /* #region-header */
 header{
