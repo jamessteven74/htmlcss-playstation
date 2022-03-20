@@ -13,6 +13,12 @@ body{
 }
     
 
+section{
+    /* padding: 0px -5px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 /* #endregion-commonrule */
 
 /* #region-utilities */
@@ -25,6 +31,7 @@ body{
 --color_new_releases: #1F1F1F;
 --btn_secondary_color: #2D64E6;
 --color_play_plus: #BEBCBB;
+--color_play_plus_dark: #727272;
 --btn_primary: #CD3D0F;
 
 }
@@ -36,14 +43,66 @@ body{
 .d-flex{
     display: flex;
 }
+.btn.color_black{
+    color: black;
+}
+.color_grey{
+    color: var(--color_play_plus);
+}
+.color_white{
+    color: white;
+}
+
+.color_small_line{
+    color: var(--color_small_line);
+}
+
+.color_play_plus_dark{
+    color: var(--color_play_plus_dark)
+}
+
+
+.btn.color_blue{
+    color:var(--btn_secondary_color);
+}
+.btn.orange{
+    background-color: var(--btn_primary);
+}
+.btn.color_white{
+    color: white;
+}
+
+.btn.secondary{
+    background-color: var(--btn_secondary_color);
+}
+
+.btn.transparent{
+    background-color: lightgray;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.tony{
+    border-radius: 20px 20px;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.img-thumbnail.no_border{
+    border: none;
+    border-radius: 0;
+}
 /* #endregion-utilities */
 
 
 /* #region-header */
 header{
     background-color: black;
-    height: 30px;
-    color: white;
+   
 }
 
 .topnav{
@@ -53,27 +112,30 @@ header{
 /* #endregion-header */
 
 /* #region-nav */
-/* nav{
-    background-color: aqua;
-    height: 70px;
-} */
-
-
 
 .lens{
     margin-left: 7px;
 }
+
+
 /* #endregion-nav */
 
 /* #region-main */
 
-.jumbo{
-    background-image: url(../img/returnal-hero-banner-logo.png);
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
     background-position: center;
-    background-size: 50px;
+    width: 100%;
+    height: 600px;
+    position: relative;
 }
 
-
+.jumbotext{
+    position: absolute;
+    top: 283px;
+    left: 33px;
+}
 
 
 
@@ -83,27 +145,56 @@ header{
 
 /* #region-section-1-cards */
 
-.cards{
-    background-color: #f72585;
-    height: 500px;
+
+
+.img-thumbnail.small{
+    border-radius: 30px 30px;
+    border: none;
 }
 
+.container_cards{
+    margin-top: 36px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.container_description_console{
+    margin-top: 70px;
+}
+
+.possible{
+    margin-top: 30px;
+}
 /* #endregion-section1-cards */
 
 /* #region-section-2-console */
-.console{
-    background-color: #48cae4;
-    height: 500px ;
-}
 
+
+
+
+.console_text{
+   margin-left: 100px;
+}
 /* #endregion-section2-console */
 
 /* #region-section-3-items */
 
 .items{
-    background-color: #0077b6;
-    height: 270px;
+    /* background-color: #0077b6; */
+    /* height: 270px; */
 }
+
+.container_box_console{
+    background-image: url(../img/playstation-5-thumb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    height: 600px;
+    width: 100%;
+
+}
+
 
 /* #endregion-section-3-items */
 
@@ -111,51 +202,89 @@ header{
 
 .hero{
     background-color: #ffd60a;
-    height: 550px;
+    /* height: 550px; */
 }
 
+.image{
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.img_logo{
+    margin-top: 40px;
+}
+
+.logo_text{
+    margin-left: 50px;
+}
 /* #endregion-section-4-hero-banner */
 
 /* #region-section-5-new-releases */
 .new{
     color: white;
     background-color: #1F1F1F;
-    height: 550px;
+    /* height: 550px; */
+}
+
+.container_new_release{
+    margin: 0px 10px;
 }
 /* #endregion-section-5-new-releases */
 
 /* #region-section-6-explorer */
-.explorer{
-    background-color: #f20089;
-    height: 550px;
+
+
+
+.container_explorer{
+    margin-bottom: 50px;
 }
 /* #endregion-section-6-explorer */
 
 /* #region-section-7-playplus */
 .playplus{
     background-color: grey;
-    height: 350px;
+    /* height: 300px; */
 }
+
+
+
+
+.april{
+    width: calc(100% - 40px);
+}
+
 /* #endregion-section-7-playplus */
 
+
 /* #region-section-8-playstore */
-.playstore{
-    background-color: #b5179e;
-    height: 500px;
+.playstore_text{
+    margin-top: 50px;
 }
+
+
+
+
+
 /* #endregion-section-8-playstore */
 
 /* #region-section-9-playnow */
+
+
 .playnow{
-    background-color: aqua;
-    height: 400px;
+    background-color:var(--color_playnow);
+    margin-top:40px
 }
+
+
+
 /* #endregion-section-9-playnow */
 
 /* #region-section-10-social */
 .social{
-    background-color: rgb(230, 158, 66);
-    height: 350px;
+    margin-top: 40px;
 }
 /* #endregion-section-10-social */
 
@@ -163,5 +292,10 @@ header{
 footer{
     background-color: #06125a;
     height: 500px;
+    margin-top: 50px;
+}
+
+.bg_white{
+    color: white;
 }
 /* #endregion-footer */
