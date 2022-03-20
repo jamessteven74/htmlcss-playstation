@@ -291,11 +291,18 @@ header{
 /* #region-footer */
 footer{
     background-color: #06125a;
-    height: 500px;
+    /* height: 500px; */
     margin-top: 50px;
 }
 
-.bg_white{
-    color: white;
+.sony_interactive{
+    background-image: url(../img/sie-logo.svg);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.country{
+    margin-left: 35px;
 }
 /* #endregion-footer */
