@@ -150,7 +150,14 @@ header{
 .img-thumbnail.small{
     border-radius: 15px 15px;
     border: none;
+
 }
+
+
+
+
+
+
 
 .container_cards{
     margin-top: 36px;
@@ -165,6 +172,8 @@ header{
 .possible{
     margin-top: 30px;
 }
+
+
 /* #endregion-section1-cards */
 
 /* #region-section-2-console */
@@ -232,6 +241,7 @@ header{
 
 .container_new_release{
     margin: 0px 10px;
+    margin-bottom: 60px;
 }
 /* #endregion-section-5-new-releases */
 
@@ -292,9 +302,10 @@ header{
 /* #region-footer */
 footer{
     background-color: #06125a;
-    /* height: 500px; */
     margin-top: 50px;
 }
+    
+    
 
 .sony_interactive{
     background-image: url(../img/sie-logo.svg);
@@ -313,7 +324,21 @@ footer{
 
 .social_card{
     padding: 5px 5px;
-    /* margin: 0px 20px;
-} */
+    /* margin: 0px 20px; */
+}
 
 /* #endregion-footer */
+
+/* .img-thumbnail.small{
+    animation-name: mymove;
+    animation-duration: 3s;
+} */
+
+
+
+.img-thumbnail.small:hover{
+    margin-top: -20px;
+    transition-duration: 2s;
+    transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    
+}      
