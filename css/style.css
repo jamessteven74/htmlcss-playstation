@@ -219,6 +219,7 @@ header{
 
 .logo_text{
     margin-left: 50px;
+    
 }
 /* #endregion-section-4-hero-banner */
 
@@ -309,4 +310,10 @@ footer{
 .website{
     margin-left: 50px;
 }
+
+.social_card{
+    padding: 5px 5px;
+    /* margin: 0px 20px;
+} */
+
 /* #endregion-footer */
