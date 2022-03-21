@@ -257,14 +257,16 @@ header{
 /* #region-section-7-playplus */
 .playplus{
     background-color: grey;
-    /* height: 300px; */
 }
-
-
+    
 
 
 .april{
     width: calc(100% - 40px);
+}
+
+.btn.secondary{
+    margin-bottom: 20px;
 }
 
 /* #endregion-section-7-playplus */
@@ -296,6 +298,7 @@ header{
 /* #region-section-10-social */
 .social{
     margin-top: 40px;
+    margin-bottom: 90px;
 }
 /* #endregion-section-10-social */
 
@@ -346,3 +349,4 @@ footer{
 }
 
 /* #endregion-effects */
+
